@@ -1,0 +1,17 @@
+{
+  "users": [
+    {"username": "rj_admin", "role": "admin", "active": true},
+    {"username": "john_doe", "role": "viewer", "active": true},
+    {"username": "jane_inactive", "role": "viewer", "active": false}
+  ],
+  "valid_passwords": [
+    "SecurePass1",
+    "AnotherValid9",
+    "StrongOne99"
+  ],
+  "invalid_passwords": [
+    "short1",
+    "alllowercase",
+    "12345678"
+  ]
+}
